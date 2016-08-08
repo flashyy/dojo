@@ -1,5 +1,4 @@
 let commandMainPage = require('../src/commands/goto-main-page');
-
 let RouteResponse = require('./route-response');
 
 const defaultMapping = {"*": new commandMainPage() };
